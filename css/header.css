@@ -1,0 +1,57 @@
+.header {
+    margin-bottom: 39px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 13px;
+}
+
+.logo {
+    color: #101010;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: bold;
+   
+}
+
+.chose__model {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    margin-right: 400px;
+    
+    
+}
+
+.chose__selection {
+    border: 0px;
+    background: #EAEAEA;
+}
+
+.chose__model::before {
+    content: "";
+    background: url(../img/Mobile.png) no-repeat;
+    margin-right: 15px;
+    width: 15px;
+    height: 21px;
+   
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.menu__item:first-child {
+    padding-right: 45px;
+}
+
+
+

@@ -1,0 +1,37 @@
+.hero {
+    margin-bottom: 44px;
+}
+
+.hero__container {
+    height: 197px;
+    background: #101010;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;   
+    position: relative;
+    align-items: center;
+    
+}
+
+.hero__title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    
+}
+
+.hero__title__block {
+    
+    width: 500px;
+    height: 74px;
+    padding-left: 200px;
+    top: 58px;
+    
+}
+
+.hero__img {
+    padding-bottom: 30px;
+}

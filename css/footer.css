@@ -1,0 +1,138 @@
+.footer__container {
+    padding: 29px 27px 33px 29px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__col--align--left {
+    display: flex;
+}
+
+.footer__col--align--right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__logo {
+    margin-right: 233px;
+}
+
+.navmenu__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.navmenu__item {
+    margin-bottom: 11px;
+}
+
+.navmenu__item:last-child {
+    margin-bottom: 0px;
+}
+
+.navmenu__ref {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.firstcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 135px;
+}
+
+.service {
+    margin-bottom: 36px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.lang__list {
+    display: flex;
+    align-items: center;
+}
+
+.lang__list::before {
+    content: "";
+    background: url(../img/World.png) no-repeat;
+    margin-right: 17px;
+    width: 19px;
+    height: 19px;
+}
+
+.lang__item {
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #101010;
+    
+}
+
+.lang__item:last-child {
+    margin-right: 0px;
+}
+
+.lang__item:hover {
+    opacity: 0.5s;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFA542;
+    transition: color 0.3s;
+}
+
+.socials__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials__item {
+    margin-right: 18px;
+}
+
+.socials__item:last-child {
+    margin-right: 0px;
+}
+
+
+.socials__link--icon--vk::before {
+    content: "";
+    display: block;
+    background: url(../img/VK.png) no-repeat;
+    width: 32px;
+    height: 22px;
+}
+
+.socials__link--icon--inst::before {
+    content: "";
+    display: block;
+    background: url(../img/Instagram.png) no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.socials__link--icon--teleg::before {
+    content: "";
+    display: block;
+    background: url(../img/Telegram.png) no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.socials__link--icon--whatsapp::before {
+    content: "";
+    display: block;
+    background: url(../img/Whatsapp.png) no-repeat;
+    width: 32px;
+    height: 32px;
+}
